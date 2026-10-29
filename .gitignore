@@ -1,0 +1,8 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+predictive_maintenance/
+data/prediction_history.json

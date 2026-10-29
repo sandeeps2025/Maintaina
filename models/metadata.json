@@ -1,0 +1,49 @@
+{
+  "dataset_file": "Air_condition_dataset.csv",
+  "model_type": "air_conditioner_operating_simulation",
+  "target": "Maintenance_Risk",
+  "task": "classification",
+  "features": [
+    "Brand_name",
+    "Condenser_Coil",
+    "RefrigeranT",
+    "Capacity_Ton",
+    "Power_W",
+    "Noise_dB",
+    "STAR",
+    "Indoor_Temperature_C",
+    "Ambient_Temperature_C",
+    "Refrigerant_Pressure_PSI",
+    "Vibration_mm_s",
+    "Compressor_Current_A",
+    "Airflow_CFM",
+    "Filter_Load_pct",
+    "Operating_Hours"
+  ],
+  "numeric_features": [
+    "Capacity_Ton",
+    "Power_W",
+    "Noise_dB",
+    "STAR",
+    "Indoor_Temperature_C",
+    "Ambient_Temperature_C",
+    "Refrigerant_Pressure_PSI",
+    "Vibration_mm_s",
+    "Compressor_Current_A",
+    "Airflow_CFM",
+    "Filter_Load_pct",
+    "Operating_Hours"
+  ],
+  "categorical_features": [
+    "Brand_name",
+    "Condenser_Coil",
+    "RefrigeranT"
+  ],
+  "rows_used": 2760,
+  "metrics": {
+    "accuracy": 0.8913,
+    "f1_weighted": 0.8907
+  },
+  "trained_at": "2026-10-07T15:27:16.896649+00:00",
+  "simulation_note": "Reproducible operating scenarios derived from catalogue specifications; not field telemetry."
+}
